@@ -1,7 +1,9 @@
 $primarycolor: #284B63;
-$thecolor: #353535;
+$thecolor: #d5d5d5;
 
 .navigation {
+    display: flex;
+    flex-direction: column;
     background-color: $primarycolor;
     color: $thecolor;
     width: 100%;
