@@ -1,0 +1,14 @@
+$primarycolor: #284B63;
+$thecolor: #353535;
+
+.navigation {
+    background-color: $primarycolor;
+    color: $thecolor;
+}
+.nav-link-box {
+    width: fit-content;
+    a {
+        text-decoration: none;
+        color: $thecolor;
+    }
+}
