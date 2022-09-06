@@ -1,0 +1,21 @@
+/* general sections */
+/* 
+body > 
+	header, main, footer
+header >
+	nav
+*/
+body{
+
+}
+
+main{
+
+}
+
+
+
+/* Main section styles */
+.mainSection{
+	background-color: rebeccapurple;
+}
