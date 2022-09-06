@@ -1,0 +1,33 @@
+.class userInput {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+main {
+  background-color: #800000;
+  display: flex;
+  color: #D3D3D3;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.navigation {
+  background-color: #284B63;
+  color: #353535;
+  width: 100%;
+}
+
+.nav-link-box {
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-link-box a {
+  text-decoration: none;
+  color: #353535;
+}
+
+/*Their component style files*/
+/*My specific image style*/ /*Just testing this, I'll remove it if it breaks things*/
+#LandscapeArchImage {
+  width: 80px;
+}
+
+/*# sourceMappingURL=styles.css.map */
