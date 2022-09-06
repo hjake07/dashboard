@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-=======
 /*Their component style files*/
-// @use "TheirFileName"
+@use "_main";
+@use "_nav";
 // @use "TheirFileName"
 
 /*My specific image style*/ /*Just testing this, I'll remove it if it breaks things*/
 #LandscapeArchImage{
     width: 80px;
 }
->>>>>>> 4cd272616a4ec63e2a705de2b34ade3573040ea5
