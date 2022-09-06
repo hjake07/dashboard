@@ -3,16 +3,20 @@ $thecolor: #d5d5d5;
 
 .navigation {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     background-color: $primarycolor;
     color: $thecolor;
     width: 100%;
 }
- .nav-link-box{
+ .link-box{
+    color: $thecolor;
     width: fit-content;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     a {
         text-decoration: none;
         color: $thecolor;
     }
+}
+.logo-box {
+    display: inherit;
 }
