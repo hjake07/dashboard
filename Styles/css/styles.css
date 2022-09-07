@@ -1,81 +1,54 @@
+.class userInput {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
 main {
-  background-color: #ED1D09;
-  font-family: "Gill Sans", sans-serif;
+  background-color: #800000;
+  display: flex;
   color: #D3D3D3;
-}
-
-.top-pic {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.top-pic img {
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  border: 5px solid white;
-}
-
-.welcome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.orders {
-  display: flex;
-  flex-direction: row;
-}
-
-.order-del {
-  padding: 10px;
-}
-
-.order-carry {
-  padding: 10px;
-}
-
-button {
-  border-radius: 10px;
-}
-
-.about {
-  padding: 15px;
-}
-
-.chef {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.owner {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
+  font-family: "Gill Sans", sans-serif;
 }
 
 .navigation {
-  display: flex;
-  flex-direction: column;
   background-color: #284B63;
-  color: #d5d5d5;
+  color: #353535;
   width: 100%;
 }
 
-.nav-link-box {
+.link-box {
   width: fit-content;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.nav-link-box a {
+
+.footlink {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
-  color: #d5d5d5;
+  color: #dadfea;
 }
 
-/*Their component style files*/
-/*My specific image style*/ /*Just testing this, I'll remove it if it breaks things*/
-#LandscapeArchImage {
-  width: 80px;
+.footLogo-box {
+  flex-grow: 2;
+  margin-right: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footLogo {
+  width: 180px;
+}
+
+@font-face {
+  font-family: LucyTheCat;
+  src: url(../LucythecatRegular-R7mA.otf);
+}
+* {
+  font-family: LucyTheCat;
+}
+
+body {
+  margin: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */

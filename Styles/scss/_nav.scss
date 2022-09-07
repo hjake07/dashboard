@@ -1,5 +1,5 @@
-$primarycolor: #284B63;
-$thecolor: #d5d5d5;
+$primarycolor: white;
+$thecolor: black;
 
 .navigation {
     display: flex;
@@ -8,11 +8,35 @@ $thecolor: #d5d5d5;
     color: $thecolor;
     width: 100%;
 }
- .nav-link-box{
+ .link-box{
     width: fit-content;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
     a {
+        display: inherit;
+        justify-content: flex-end;
         text-decoration: none;
-        color: $thecolor;
+        margin: 0 20px;
+        color: black;
     }
+}
+a:hover {
+    border-bottom: 3px solid red;
+}
+.navlink {
+    height:fit-content;
+}
+.logo-box {
+    display: flex;
+    justify-content: space-between;
+}
+.order {
+    margin-right: 50px;
+    font-size: 28px;
+    color: black;
+    height: fit-content;
+    text-decoration: none;
+}
+.order:hover {
+    border-bottom: 3px solid red;
 }

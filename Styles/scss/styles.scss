@@ -1,9 +1,16 @@
-/*Their component style files*/
 @use "_main";
 @use "_nav";
-// @use "TheirFileName"
+@use "_footer";
 
-/*My specific image style*/ /*Just testing this, I'll remove it if it breaks things*/
-#LandscapeArchImage{
-    width: 80px;
+@font-face {
+    font-family: LucyTheCat;
+    src: url(../LucythecatRegular-R7mA.otf);
+}
+
+*{
+    font-family: LucyTheCat;
+}
+
+body{
+    margin: 0px;
 }
