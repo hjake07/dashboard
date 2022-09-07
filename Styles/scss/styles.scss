@@ -1,3 +1,16 @@
 @use "_main";
 @use "_nav";
 @use "_footer";
+
+@font-face {
+    font-family: LucyTheCat;
+    src: url(../LucythecatRegular-R7mA.otf);
+}
+
+*{
+    font-family: LucyTheCat;
+}
+
+body{
+    margin: 0px;
+}
