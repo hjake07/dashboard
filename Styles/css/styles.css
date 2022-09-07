@@ -1,60 +1,3 @@
-main {
-  background-color: #ED1D09;
-  font-family: "Gill Sans", sans-serif;
-  color: #D3D3D3;
-}
-
-.top-pic {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.top-pic img {
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  border: 5px solid white;
-}
-
-.welcome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.orders {
-  display: flex;
-  flex-direction: row;
-}
-
-.order-del {
-  padding: 10px;
-}
-
-.order-carry {
-  padding: 10px;
-}
-
-button {
-  border-radius: 10px;
-}
-
-.about {
-  padding: 15px;
-}
-
-.chef {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.owner {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
-
 .navigation {
   display: flex;
   flex-direction: column;
@@ -134,16 +77,70 @@ footer {
   width: 180px;
 }
 
+main {
+  background-color: #ED1D09;
+  font-family: "Gill Sans", sans-serif;
+  color: #D3D3D3;
+}
+
+.top-pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-pic img {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border: 5px solid white;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orders {
+  display: flex;
+  flex-direction: row;
+}
+
+.order-del {
+  padding: 10px;
+}
+
+.order-carry {
+  padding: 10px;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.about {
+  padding: 15px;
+}
+
+.chef {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.owner {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
 @font-face {
   font-family: LucyTheCat;
   src: url(../LucythecatRegular-R7mA.otf);
 }
-* {
-  font-family: LucyTheCat;
-}
-
 body {
   margin: 0px;
+  font-family: LucyTheCat;
 }
 
 /*# sourceMappingURL=styles.css.map */
