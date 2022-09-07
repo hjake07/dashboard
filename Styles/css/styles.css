@@ -17,16 +17,17 @@ main {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .link-box {
-=======
+  width: fit-content;
+  display: flex;
+  justify-content: row;
+}
+
 .nav-link-box {
->>>>>>> 414607c1864a0eb8f45fa9bcea7b88ae20ff6165
   width: fit-content;
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
 .link-box a {
   display: inherit;
   justify-content: flex-end;
@@ -57,6 +58,7 @@ main {
 }
 .order:hover {
   border-bottom: 3px solid red;
+}
 .nav-link-box a {
   text-decoration: none;
   display: inline;
