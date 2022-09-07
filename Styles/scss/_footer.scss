@@ -1,6 +1,14 @@
 $background-color: #d6032e;
-
+$left-margin: 5px;
+$right-margin: 10px;
 
 footer{
     background-color: $background-color;
+    display: flex;
+    justify-content: space-between;
+}
+.FindAtBox{
+    margin-left: $left-margin;
+    display: flex;
+    justify-content: space-evenly;
 }
