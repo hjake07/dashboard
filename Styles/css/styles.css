@@ -20,12 +20,6 @@ main {
 .link-box {
   width: fit-content;
   display: flex;
-  justify-content: row;
-}
-
-.nav-link-box {
-  width: fit-content;
-  display: flex;
   justify-content: space-between;
 }
 .link-box a {
@@ -37,12 +31,7 @@ main {
 }
 
 .navlink {
-  font-size: 24px;
   height: fit-content;
-  
-}
-.navlink:hover {
-  border-bottom: 3px solid red;
 }
 
 .logo-box {
@@ -51,18 +40,7 @@ main {
 }
 
 .order {
-  height: fit-content;
-  text-decoration: none;
-  color: black;
   font-size: 28px;
-}
-.order:hover {
-  border-bottom: 3px solid red;
-}
-.nav-link-box a {
-  text-decoration: none;
-  display: inline;
-  color: black;
 }
 
 footer {
