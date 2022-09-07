@@ -1,16 +1,59 @@
-$box-shadows:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-$background-color: #800000;
+$box-shadows: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+$background-color: #ED1D09;
 $font-color: #D3D3D3;
 $font-style: "Gill Sans", sans-serif;
 
 
-.class userInput{
-    box-shadow: $box-shadows;
-}
-
 main {
     background-color: $background-color;
-    display: flex;
-    color: $font-color;
     font-family: $font-style;
+    color: $font-color;
+}
+
+.top-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top-pic img{
+    box-shadow: $box-shadows;
+    border: 5px solid white;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orders{
+    display: flex;
+    flex-direction: row;
+}
+
+.order-del{
+    padding: 10px;
+}
+.order-carry{
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+}
+
+.about{
+    padding: 15px;
+}
+.chef{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.owner{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
 }
