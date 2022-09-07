@@ -25,6 +25,7 @@ a:hover {
     border-bottom: 3px solid red;
 }
 .navlink {
+    padding: 5px 0;
     height:fit-content;
 }
 .logo-box {
@@ -40,4 +41,7 @@ a:hover {
 }
 .order:hover {
     border-bottom: 3px solid red;
+}
+.logo {
+    border-radius: 50%;
 }

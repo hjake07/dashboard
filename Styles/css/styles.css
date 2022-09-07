@@ -24,6 +24,7 @@ a:hover {
 }
 
 .navlink {
+  padding: 5px 0;
   height: fit-content;
 }
 
@@ -42,6 +43,10 @@ a:hover {
 
 .order:hover {
   border-bottom: 3px solid red;
+}
+
+.logo {
+  border-radius: 50%;
 }
 
 footer {
