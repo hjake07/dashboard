@@ -55,6 +55,10 @@ button {
   padding: 15px;
 }
 
+* {
+  font-family: LucyTheCat;
+}
+
 .navigation {
   display: flex;
   flex-direction: column;
@@ -101,6 +105,10 @@ a:hover {
   border-bottom: 3px solid red;
 }
 
+* {
+  font-family: LucyTheCat;
+}
+
 footer {
   background-color: #d6032e;
   display: flex;
@@ -138,10 +146,6 @@ footer {
   font-family: LucyTheCat;
   src: url(../LucythecatRegular-R7mA.otf);
 }
-* {
-  font-family: LucyTheCat;
-}
-
 body {
   margin: 0px;
 }

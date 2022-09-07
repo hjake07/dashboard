@@ -2,6 +2,12 @@ $background-color: #d6032e;
 $left-margin: 5px;
 $right-margin: 10px;
 
+*{
+    font-family: LucyTheCat;
+}
+
+
+
 footer{
     background-color: $background-color;
     display: flex;
