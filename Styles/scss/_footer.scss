@@ -17,6 +17,10 @@ footer{
     align-items: center;
 }
 
+.findAtbox{
+    margin-right: 30%;
+}
+
 .footlink{
     display: flex;
     flex-direction: column;
@@ -25,7 +29,6 @@ footer{
 }
 
 .footLogo-box{
-    flex-grow: 2;
     margin-right: $right-margin;
     display: flex;
     justify-content: right;
