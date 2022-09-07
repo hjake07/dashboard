@@ -1,3 +1,82 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+.link-box {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.link-box a {
+  display: inherit;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+}
+
+a:hover {
+  border-bottom: 3px solid red;
+}
+
+.navlink {
+  height: fit-content;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  margin-right: 50px;
+  font-size: 28px;
+  color: black;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.order:hover {
+  border-bottom: 3px solid red;
+}
+
+footer {
+  background-color: #d6032e;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+
+.FindAtBox {
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footlink {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #dadfea;
+}
+
+.footLogo-box {
+  flex-grow: 2;
+  margin-right: 10px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.footLogo {
+  width: 180px;
+}
+
 main {
   background-color: #ED1D09;
   font-family: "Gill Sans", sans-serif;
@@ -55,99 +134,13 @@ button {
   padding: 15px;
 }
 
-* {
-  font-family: LucyTheCat;
-}
-
-.navigation {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  color: black;
-  width: 100%;
-}
-
-.link-box {
-  width: fit-content;
-  display: flex;
-  justify-content: space-between;
-}
-.link-box a {
-  display: inherit;
-  justify-content: flex-end;
-  text-decoration: none;
-  margin: 0 20px;
-  color: black;
-}
-
-a:hover {
-  border-bottom: 3px solid red;
-}
-
-.navlink {
-  height: fit-content;
-}
-
-.logo-box {
-  display: flex;
-  justify-content: space-between;
-}
-
-.order {
-  margin-right: 50px;
-  font-size: 28px;
-  color: black;
-  height: fit-content;
-  text-decoration: none;
-}
-
-.order:hover {
-  border-bottom: 3px solid red;
-}
-
-* {
-  font-family: LucyTheCat;
-}
-
-footer {
-  background-color: #d6032e;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 200px;
-}
-
-.FindAtBox {
-  margin-left: 5px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.footlink {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  color: #dadfea;
-}
-
-.footLogo-box {
-  flex-grow: 2;
-  margin-right: 10px;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
-.footLogo {
-  width: 180px;
-}
-
 @font-face {
   font-family: LucyTheCat;
   src: url(../LucythecatRegular-R7mA.otf);
 }
 body {
   margin: 0px;
+  font-family: LucyTheCat;
 }
 
 /*# sourceMappingURL=styles.css.map */
