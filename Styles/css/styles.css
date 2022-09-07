@@ -33,6 +33,14 @@ main {
 
 footer {
   background-color: #d6032e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FindAtBox {
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=styles.css.map */
