@@ -45,6 +45,10 @@ a:hover {
   border-bottom: 3px solid red;
 }
 
+.logo {
+  border-radius: 50%;
+}
+
 footer {
   background-color: #d6032e;
   display: flex;
