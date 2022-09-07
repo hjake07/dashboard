@@ -1,9 +1,3 @@
-/*Their component style files*/
 @use "_main";
 @use "_nav";
-// @use "TheirFileName"
-
-/*My specific image style*/ /*Just testing this, I'll remove it if it breaks things*/
-#LandscapeArchImage{
-    width: 80px;
-}
+@use "_footer";

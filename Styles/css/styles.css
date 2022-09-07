@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Error: Undefined variable.
  *   ,
  * 6 |     background-color: $primarycolor;
@@ -16,3 +17,43 @@ body::before {
   border-bottom: 2px solid black;
   content: "Error: Undefined variable.\a   \2577 \a 6 \2502      background-color: $primarycolor;\a   \2502                        ^^^^^^^^^^^^^\a   \2575 \a   Styles/scss/_nav.scss 6:23   @use\a   Styles/scss/styles.scss 3:1  root stylesheet";
 }
+=======
+.class userInput {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+main {
+  background-color: #800000;
+  display: flex;
+  color: #D3D3D3;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #284B63;
+  color: #d5d5d5;
+  width: 100%;
+}
+
+.link-box {
+  color: #d5d5d5;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.link-box a {
+  text-decoration: none;
+  color: #d5d5d5;
+}
+
+.logo-box {
+  display: inherit;
+}
+
+footer {
+  background-color: #d6032e;
+}
+
+/*# sourceMappingURL=styles.css.map */
+>>>>>>> 4949c74c5cd2a3611110204b4558e17284030512
