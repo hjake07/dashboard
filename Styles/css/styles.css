@@ -49,13 +49,15 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 200px;
+  height: 160px;
+  border-top: ghostwhite solid 25px;
 }
 
 .FindAtBox {
-  margin-left: 5px;
+  margin-left: 5%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .footlink {
@@ -67,14 +69,14 @@ footer {
 
 .footLogo-box {
   flex-grow: 2;
-  margin-right: 10px;
+  margin-right: 1%;
   display: flex;
   justify-content: right;
   align-items: center;
 }
 
 .footLogo {
-  width: 180px;
+  width: 140px;
 }
 
 main {
