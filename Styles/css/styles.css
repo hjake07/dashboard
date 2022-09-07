@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+/* Error: Undefined variable.
+ *   ,
+ * 6 |     background-color: $primarycolor;
+ *   |                       ^^^^^^^^^^^^^
+ *   '
+ *   Styles/scss/_nav.scss 6:23   @use
+ *   Styles/scss/styles.scss 3:1  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      background-color: $primarycolor;\a   \2502                        ^^^^^^^^^^^^^\a   \2575 \a   Styles/scss/_nav.scss 6:23   @use\a   Styles/scss/styles.scss 3:1  root stylesheet";
+}
+=======
 .class userInput {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -44,3 +64,4 @@ footer {
 }
 
 /*# sourceMappingURL=styles.css.map */
+>>>>>>> 4949c74c5cd2a3611110204b4558e17284030512

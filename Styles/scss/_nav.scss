@@ -1,22 +1,19 @@
-$primarycolor: #284B63;
-$thecolor: #d5d5d5;
+$primarycolor: white;
+$thecolor: black;
 
 .navigation {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     background-color: $primarycolor;
     color: $thecolor;
     width: 100%;
 }
- .link-box{
-    color: $thecolor;
+ .nav-link-box{
     width: fit-content;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     a {
         text-decoration: none;
-        color: $thecolor;
+        display: inline;
+        color: black;
     }
-}
-.logo-box {
-    display: inherit;
 }
