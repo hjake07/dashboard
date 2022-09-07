@@ -10,20 +10,34 @@ main {
 }
 
 .navigation {
-  background-color: #284B63;
-  color: #353535;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
   width: 100%;
 }
 
-.nav-link-box {
+.navlink {
   width: fit-content;
-  display: flex;
-  justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.nav-link-box a {
+.navlink a {
   text-decoration: none;
-  color: #353535;
+  display: inline;
+  color: black;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  font-size: 28px;
+}
+
+.logo {
+  width: 100px;
 }
 
 /*Their component style files*/
