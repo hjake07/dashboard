@@ -8,12 +8,25 @@ $thecolor: black;
     color: $thecolor;
     width: 100%;
 }
- .nav-link-box{
+ .link-box{
     width: fit-content;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
     a {
+        display: inherit;
+        justify-content: flex-end;
         text-decoration: none;
-        display: inline;
+        margin: 0 20px;
         color: black;
     }
+}
+.navlink {
+    height:fit-content;
+}
+.logo-box {
+    display: flex;
+    justify-content: space-between;
+}
+.order {
+    font-size: 28px;
 }

@@ -17,9 +17,47 @@ main {
   width: 100%;
 }
 
+.link-box {
+  width: fit-content;
+  display: flex;
+  justify-content: row;
+}
+
 .nav-link-box {
   width: fit-content;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.link-box a {
+  display: inherit;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+}
+
+.navlink {
+  font-size: 24px;
+  height: fit-content;
+  
+}
+.navlink:hover {
+  border-bottom: 3px solid red;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order {
+  height: fit-content;
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+}
+.order:hover {
+  border-bottom: 3px solid red;
 }
 .nav-link-box a {
   text-decoration: none;
