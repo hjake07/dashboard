@@ -44,6 +44,7 @@ a:hover {
 }
 
 .order {
+  margin-right: 50px;
   font-size: 28px;
   color: black;
   height: fit-content;
