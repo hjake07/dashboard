@@ -10,18 +10,25 @@ main {
 }
 
 .navigation {
+  display: flex;
+  justify-content: space-between;
   background-color: #284B63;
   color: #d5d5d5;
   width: 100%;
 }
 
-.nav-link-box {
+.link-box {
+  color: #d5d5d5;
   width: fit-content;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.nav-link-box a {
+.link-box a {
   text-decoration: none;
-  color: #353535;
+  color: #d5d5d5;
+}
+
+.logo-box {
+  display: inherit;
 }
 
 /*Their component style files*/
