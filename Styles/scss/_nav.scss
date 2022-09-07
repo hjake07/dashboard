@@ -1,13 +1,14 @@
-
+$primarycolor: white;
+$thecolor: black;
 
 .navigation {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    color: black;
+    background-color: $primarycolor;
+    color: $thecolor;
     width: 100%;
 }
- .navlink{
+ .nav-link-box{
     width: fit-content;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     a {
@@ -16,13 +17,3 @@
         color: black;
     }
 }
-    .logo-box {
-        display: flex;
-        justify-content: space-between;
-    }
-    .order {
-        font-size: 28px;
-    }
-    .logo {
-        width: 100px;
-    }
