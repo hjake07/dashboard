@@ -30,6 +30,10 @@ main {
   color: black;
 }
 
+a:hover {
+  border-bottom: 3px solid red;
+}
+
 .navlink {
   height: fit-content;
 }
@@ -41,6 +45,13 @@ main {
 
 .order {
   font-size: 28px;
+  color: black;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.order:hover {
+  border-bottom: 3px solid red;
 }
 
 footer {
