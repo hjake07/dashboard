@@ -24,6 +24,7 @@ a:hover {
 }
 
 .navlink {
+  padding: 5px 0;
   height: fit-content;
 }
 
