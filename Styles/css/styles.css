@@ -24,6 +24,7 @@ a:hover {
 }
 
 .navlink {
+  padding: 5px 0;
   height: fit-content;
 }
 
@@ -81,6 +82,7 @@ main {
   background-color: #ED1D09;
   font-family: "Gill Sans", sans-serif;
   color: #D3D3D3;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .top-pic {
@@ -88,6 +90,7 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-top: 15px;
 }
 
 .top-pic img {
@@ -128,10 +131,40 @@ button {
   justify-content: space-around;
 }
 
+.chef img {
+  border: 15px double maroon;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
 .owner {
   display: flex;
   flex-direction: column;
   padding: 15px;
+}
+
+.delivery, .carryout {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: whitesmoke;
+  background-color: #9b2424;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(72, 72, 72);
+}
+
+.delivery:hover, .carryout:hover {
+  background-color: #bd1d1d;
+}
+
+.delivery:active, .carryout:active {
+  background-color: #7b0909;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 @font-face {
