@@ -65,14 +65,14 @@ footer {
 }
 
 .FindAtBox {
-  margin-left: 10%;
+  margin-left: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .findAtbox {
-  margin-right: 20%;
+  margin-right: 40px;
   width: 50px;
 }
 
@@ -94,6 +94,20 @@ footer {
   width: 140px;
 }
 
+@media (max-width: 650px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+  .FindAtBox {
+    width: 100%;
+  }
+  .copyright {
+    width: 100%;
+  }
+}
 main {
   background-color: #ED1D09;
   font-family: "Gill Sans", sans-serif;

@@ -1,5 +1,5 @@
 $background-color: #d6032e;
-$left-margin: 10%;
+$left-margin: 10px;
 $right-margin: 1%;
 
 footer{
@@ -18,7 +18,7 @@ footer{
 }
 
 .findAtbox{
-    margin-right: 20%;
+    margin-right: 40px;
     width: 50px;
 }
 
@@ -37,4 +37,19 @@ footer{
 }
 .footLogo{
     width:140px;
+}
+
+@media (max-width: 650px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .FindAtBox{
+        width: 100%;
+    }
+    .copyright{
+        width: 100%;
+    }
 }
