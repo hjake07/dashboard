@@ -13,9 +13,8 @@
   align-self: flex-end;
 }
 .link-box a {
-  border-bottom: 3px solid rgba(255, 255, 255, 0);
-  padding: 10px;
-  margin: 5px;
+  background-color: green;
+  padding: 0;
   display: inherit;
   text-decoration: none;
   color: black;
@@ -188,4 +187,4 @@ body {
   font-family: LucyTheCat;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=css.styles.css.map */

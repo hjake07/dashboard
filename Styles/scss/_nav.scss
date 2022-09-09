@@ -8,15 +8,18 @@ $thecolor: black;
     background-color: $primarycolor;
     color: $thecolor;
     width: 100%;
+    margin-bottom: 10px;
 }
  .link-box{
     width: fit-content;
     display: flex;
     align-self: flex-end;
     a {
+        border-bottom: 3px solid rgba(255, 255, 255, 0);
+        padding: 10px;
+        margin: 5px;
         display: inherit;
         text-decoration: none;
-        margin: 0 20px;
         color: black;
     }
 }
