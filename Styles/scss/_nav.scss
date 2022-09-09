@@ -12,10 +12,9 @@ $thecolor: black;
  .link-box{
     width: fit-content;
     display: flex;
-    justify-content: space-between;
+    align-self: flex-end;
     a {
         display: inherit;
-        justify-content: flex-end;
         text-decoration: none;
         margin: 0 20px;
         color: black;
@@ -41,4 +40,7 @@ a:hover {
 }
 .order:hover {
     border-bottom: 3px solid red;
+}
+.logo {
+    border-radius: 50%;
 }
