@@ -3,6 +3,7 @@ $thecolor: black;
 
 
 .navigation {
+    height: 220px;
     display: flex;
     flex-direction: column;
     background-color: $primarycolor;
@@ -17,7 +18,7 @@ $thecolor: black;
     a {
         border-bottom: 3px solid rgba(255, 255, 255, 0);
         padding: 10px;
-        margin: 5px;
+        margin: 0 5px 0 0;
         display: inherit;
         text-decoration: none;
         color: black;
